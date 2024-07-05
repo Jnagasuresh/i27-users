@@ -1,0 +1,9 @@
+name: i27-user
+fullname: i27-user-stg
+replicas:
+  default: 1
+image:
+  name: i27k8s10/user
+  tag: random
+namespace: cart-stg-ns
+targetport: 8232
